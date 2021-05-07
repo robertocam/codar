@@ -1,0 +1,148 @@
+:root{
+  --red:#D6000D;
+  --cinza:#dcdcdc;
+}
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.button{
+  color: white;
+  background-color: var(--red);
+  border:none;
+  border-radius: 0.5rem;
+  padding: 5px 30px 5px;
+}
+header{
+  margin: 25px 15px 0 25px;
+  display: flex;
+  flex-direction: row;
+}
+header h1{
+  color: var(--red);
+  width: 50%;
+  font-style: italic;
+  font-size: 50px;
+}
+header h1 span{
+  margin-left: -10px;
+  color:black;
+}
+nav{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+nav a{
+  color:black;
+  text-decoration: none;
+}
+/* main===============================*/
+/* section1===============================*/
+#initial{
+  margin: 10% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+#imgVideoCall{
+  width: 40%;
+  margin:0 5% 0 0;
+}
+#orcamento{
+  width:50%;
+  margin: 0 5% 0 5%;
+}
+#fontBigRed{
+  font-size: 50px;
+  color: var(--red);
+  white-space:nowrap; 
+}
+/* section2======================*/
+#services{
+  margin: 20% 10%;
+}
+#imgList{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items:center;
+  justify-content: space-between;
+}
+#imgCoding{
+  width: 40%;
+  margin:0 0 0 5%;
+}
+ul{
+  margin:0 0 0 5%;
+  list-style-image: url("./assets/redCheck.svg");
+}
+li span {
+  position: relative;
+  left: 13px;
+  line-height: 26px;
+}
+#inputButton{
+  margin-top: 5%;
+}
+#inputButton strong{
+  font-size: 20px;
+}
+#inputButton input{
+  background-color: var(--cinza);
+  margin-top: 15px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 0.5rem;
+}
+#inputButton button{
+  padding: 12px 40px 12px 40px;
+}
+/*section3==========================*/
+#previusReference{
+  margin: 20% 4% 8%;
+  display: flex;
+  flex-direction: row;
+  
+}
+.card{
+  width:50%;
+  background-color: var(--cinza);
+  border-radius: 0.5rem;
+  padding: 2%;
+  margin: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.subCard{
+  margin-left:3%;
+}
+.name{
+  font-size: 25px;
+}
+/*footer================================*/
+footer{
+  padding:10% 4%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  white-space:nowrap;
+}
+#contact{
+ ;
+}
+#cell{
+  color:white;
+  text-decoration: none;
+}
+#email{
+  color:white;
+}
+#socialNetworks{
+  
+}
